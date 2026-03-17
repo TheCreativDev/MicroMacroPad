@@ -1796,6 +1796,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 90.17) (xy 96.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc252b9-1f20-4469-9b8d-267b9147db8d")
+	)
+	(wire
+		(pts
 			(xy 48.26 104.14) (xy 48.26 97.79)
 		)
 		(stroke
@@ -1863,16 +1873,6 @@
 			(type default)
 		)
 		(uuid "39578f6b-4ae0-4462-b5ec-d218e4942fcd")
-	)
-	(wire
-		(pts
-			(xy 44.45 106.68) (xy 44.45 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3adae101-4650-49fe-a8a6-a86558e0867c")
 	)
 	(wire
 		(pts
@@ -2176,6 +2176,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 110.49) (xy 96.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba824c5-d591-48a6-915e-329d92347109")
+	)
+	(wire
+		(pts
 			(xy 92.71 87.63) (xy 114.3 87.63)
 		)
 		(stroke
@@ -2276,13 +2286,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 106.68) (xy 44.45 106.68)
+			(xy 96.52 110.49) (xy 96.52 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc9e3b0d-fabd-4226-9cdd-1bbc55d2344e")
+		(uuid "c4b22de7-768b-483f-bcba-5a77ed69a1a0")
+	)
+	(wire
+		(pts
+			(xy 48.26 106.68) (xy 48.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd023673-79d1-4d2a-a6e4-4a31252d1f8e")
 	)
 	(wire
 		(pts
@@ -2293,6 +2313,16 @@
 			(type default)
 		)
 		(uuid "ceff3f69-3cb3-4101-bd3c-28be59508c5c")
+	)
+	(wire
+		(pts
+			(xy 38.1 106.68) (xy 48.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c40635-091d-4c0b-af2e-9ad75024c209")
 	)
 	(wire
 		(pts
@@ -4059,72 +4089,6 @@
 			(project ""
 				(path "/914c1ed6-ec52-40a6-87b3-68251964bf7f"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 44.45 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfa7e93a-a024-4dc2-815c-c5dad438dded")
-		(property "Reference" "#PWR02"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 44.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 44.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d90d9027-8a64-42d4-a47e-c482640a12d9")
-		)
-		(instances
-			(project ""
-				(path "/914c1ed6-ec52-40a6-87b3-68251964bf7f"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)

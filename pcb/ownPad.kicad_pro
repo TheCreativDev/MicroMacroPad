@@ -487,10 +487,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pcb exports/gerber v3/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ownPad.glb",
+      "step": "ownPad2.glb",
       "svg": "",
       "vrml": ""
     },
